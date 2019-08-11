@@ -10,6 +10,8 @@ echo " ----------- Exercise 1 ------------------ <br>";
 $arrayMutator = new ArrayMutator();
 var_dump($arrayMutator->injectAfter(["foo" => 3, "bar" => 1], "foo", "baz", 42));
 // var_dump($arrayMutator->injectAfter(["foo" => 3, "bar" => 1], "bar", "foo", 42));
+// var_dump($arrayMutator->injectAfter(["foo" => 3, "bar" => 1], "inexistentKey", "baz", 42));
+// var_dump($arrayMutator->injectAfter([], "foo", "baz", 42));
 
 
 echo " ----------- Exercise 2 ------------------ <br>";
