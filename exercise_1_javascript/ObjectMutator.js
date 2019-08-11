@@ -1,7 +1,7 @@
 class ObjectMutator {
 
 	/**
-	 * Perform an injection of $newKey => $newValue in the specified $position
+	 * Perform an injection of a property (newKey) with value (newValue) in the specified position
 	 */
 	inject(object, position, newKey, newValue) {
 	    
